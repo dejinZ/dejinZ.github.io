@@ -1,0 +1,42 @@
+	.tempCata{
+		width: 710px;
+		float: right;
+	}
+	.tempCata ul li{
+		width: 710px;
+		height: 30px;
+		line-height: 30px;
+		font-size: 12px;
+		border-bottom: 1px solid #ebebeb;
+	}
+	.tempCata ul li a:nth-child(1){
+		width: 80px;
+		color: #808080;
+		cursor: pointer;
+		font-size: 14px;
+		margin-left: -10px;
+		transition: .3s;
+		display: inline-block;
+	}
+	.tempCata ul li a:nth-child(2){
+		width: 170px;
+		color: #1a1a1a;
+		cursor: pointer;
+		font-size: 16px;
+		transition: .3s;
+		display: inline-block;
+	}
+	.tempCata ul li a:nth-child(3){
+		width: 265px;
+		color: #808080;
+		cursor: pointer;
+		transition: .3s;
+		display: inline-block;
+	}
+	.tempCata ul li a:nth-child(4){
+		width: 115px;
+		color: #b3b3b3;
+		cursor: pointer;
+		transition: .3s;
+		display: inline-block;
+	}

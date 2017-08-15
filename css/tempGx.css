@@ -1,0 +1,38 @@
+	.tempGx{
+		width: 192px;
+		height: 140px;
+		position: relative;
+		padding: 55px 10px 10px 0 ;
+		border-bottom: 1px solid #e6e6e6;
+	}
+	.tempGx ul li{
+		width: 100%;
+		font-size: 12px;
+		text-align: right;
+		padding: 5px 0 0 5px;
+	}
+	.tempGx ul li:nth-child(1){
+		width: 65px;
+		height: 95px;
+		position: absolute;
+		top: 20px;
+		left: 15px;
+	}
+	.tempGx ul li:nth-child(2) a{
+		color: #1a1a1a;
+		font-size: 16px;
+		transition: .3s;
+	}
+	.tempGx ul li:nth-child(3){
+		color: #bf2c24;
+	}
+	.tempGx ul li:nth-child(4) a{
+		color: #a6a6a6;
+		transition: .3s;
+	}
+	.tempGx ul li p{
+		color: #666666;
+		text-align: left;
+		line-height: 20px;
+		padding-top: 10px;
+	}

@@ -1,0 +1,78 @@
+	.tmpeDay{
+		width: 340px;
+		height: 122px;
+		float: left;
+		padding: 15px 0 0 17px;
+		border-bottom: 1px solid #e6e6e6;
+	}
+	.tempImg{
+		width: 72px;
+		height: 98px;
+		float: left;
+		overflow: hidden;
+		box-shadow: 1px 1px 2px 2px  rgba(0,0,0,0.2);
+	}
+	.tempImg img{
+		width: 100%;
+		height: 100%;
+		transition: .3s;
+	}
+	.tempImg:hover img{
+		width: 110%;
+		height: 120%;
+		margin-top: -5%;
+		margin-left: -5%;
+	}
+	.tmpeDay ul{
+		width: 255px;
+		float: right;
+		padding-left: 10px;
+	}
+	.tmpeDay ul li{
+		color: #1a1a1a;
+		font-size: 13px;
+	}
+	.tmpeDay ul a{
+		color: #1a1a1a;
+		font-size: 17px;
+		transition: .3s;
+	}
+	.tmpeDay ul li p{
+		color: #666666;
+		font-size: 13px;
+		line-height: 25px;
+		padding: 0;
+		padding: 0 0 10px 0;
+	}
+	.tmpeDay ul li span,.tmpeDay ul li:nth-child(3) a{
+		color: #a6a6a6;
+		font-size: 13px;
+		height: 20px;
+		line-height: 20px;
+		display: inline-block;
+	}
+	.tmpeDay ul li a{
+		transition: .3s;
+	}
+	.tmpeDay ul li a img{
+		width: 15px;
+		height: 15px;
+		float: left;
+		padding: 3px 6px 0 0;
+	}
+	.tmpeDay ul li div{
+		width: 146px;
+		float: right;
+	}
+	.tmpeDay ul li div span:nth-child(1){
+		padding: 0 5px;
+		float: left;
+		margin-left: 10px;
+		border: 1px solid #bfbfbf;
+	}
+	.tmpeDay ul li span:nth-child(2){
+		color: #bf2c24;
+		padding: 0 5px;
+		float: right;
+		border: 1px solid #df9591;
+	}

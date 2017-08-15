@@ -1,0 +1,62 @@
+	
+	.towtempLR li{
+		width: 220px;
+		height: 31px;
+		line-height: 31px;
+		border-bottom: 1px solid #e6e6e6;
+	}
+	.towtempLR li  a:nth-child(1){
+		color: #808080;
+		margin-left: -9px;
+		float: left;
+		transition: .5s;
+	}
+	.towtempLR li a:nth-child(2){
+		color: #262626;
+		width: 80px;
+		display:block;
+		float: left;
+		white-space:nowrap;
+		overflow:hidden; 
+		transition: .5s;
+		text-overflow:ellipsis;
+	}
+	.towtempLR li a:nth-child(3){
+		color: #b3b3b3;
+		font-size: 12px;
+		float: right;
+		transition: .5s;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

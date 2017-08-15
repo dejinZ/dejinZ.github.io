@@ -1,0 +1,87 @@
+	.tempLb{
+		width: 198px;
+		height: 365px;
+		float: left;
+		background-color: #f7f5f0;
+		padding: 30px 10px 20px 10px;
+	}
+	.temptop{
+		width: 198px;
+		height: 140px;
+		position: relative;
+	}
+	.temptop li a,.temptop li a img{
+		width: 100%;
+		height: 100%;
+	}
+	.flbleft{
+		width: 67px;
+		height: 87px;
+		position: absolute;
+		top: 15px;
+		left: 18px;
+		z-index: 1;
+	}
+	.flbcenter{
+		width: 85px;
+		height: 112px;
+		position: absolute;
+		left: 57px;
+		z-index: 3;
+	}
+	.flbright{
+		width: 67px;
+		height: 87px;
+		position: absolute;
+		top: 15px;
+		right: 18px;
+		z-index: 1;
+	}
+	.tempbot li:nth-child(1){
+		cursor: pointer;
+		width: 100%;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		font-size: 16px;
+		font-weight: 600;
+		transition: .3s;
+	}
+	.tempbot li:nth-child(2),.tempbot li:nth-child(2) a{
+		color: #bf2c24;
+		width: 100%;
+		height: 25px;
+		line-height: 25px;
+		text-align: center;
+		font-size: 12px;
+	}
+	.tempbot li:nth-child(3){
+		color: #000;
+		width: 100%;
+		height: 25px;
+		line-height: 25px;
+		text-align: center;
+		font-size: 14px;
+	}
+	.tempbot li:nth-child(3) span{
+		font-size: 16px;
+		font-weight: 600;
+	}
+	.tempLb p{
+		color: #626260;
+		line-height: 20px;
+		font-size: 12px;
+		padding-top: 6px;
+	}
+	.tempLb input{
+		color: #fff;
+		width: 100px;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		border: none;
+		border-radius: 15px;
+		background: #bf2c24;
+		margin-top: 20px;
+		margin-left: 50px;
+	}

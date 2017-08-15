@@ -1,0 +1,113 @@
+/***section_bottom********************************************/
+	
+	#section_bottom{
+		width: 1200px;
+		height: 225px;
+		margin-top: 40px;
+	}
+	#section_bottom ul li{
+		width: 171.4px;
+		height: 180px;
+		float: left;
+		padding: 20px 0 25px 0;
+	}
+	#section_bottom ul li:nth-child(odd){
+		background-color: #f4f3f0;
+	}
+	.bottomMf span:nth-child(1){
+		color: #ed4259;
+		height: 25px;
+		line-height: 25px;
+		font-size: 16px;
+		font-weight: 600;
+		display: block;
+		text-align: center;
+	} 
+	.bottomMf span:nth-child(2){
+		color: #999999;
+		height: 25px;
+		line-height: 25px;
+		font-size: 12px;
+		display: block;
+		text-align: center;
+	}
+	.bottomMf span:nth-child(4){
+		color: #ed4259;
+		height: 25px;
+		line-height: 25px;
+		font-size: 16px;
+		display: block;
+		text-align: center;
+	}
+	.bottomMf img{
+		width: 120px;
+		height: 70px;
+		margin-left: 25px;
+		border: 0;
+	}
+	.bottomMf a{
+		color: #3f5a93;
+		width: 100%;
+		height: 35px;
+		line-height: 35px;
+		text-align: center;
+		display: block;
+		transition: .3s;
+	}
+	.bottomMf a:hover{
+		color: #658de2;
+	}
+	.btnImg{
+		width: 66px;
+		height: 88px;
+		margin:0 auto;
+		margin-bottom: 10px;
+		cursor: pointer;
+		overflow: hidden;
+		box-shadow: 1px 1px 2px 2px  rgba(0,0,0,0.2);
+	}
+	.btnImg img{
+		width: 100%;
+		height: 100%;
+		transition: .3s;
+	}
+	.btnImg:hover img{
+		width: 110%;
+		height: 120%;
+		margin-top: -5%;
+		margin-left: -5%;
+	}
+	.tempBot>a{
+		color: #444443;
+		width: 171.4px;
+		font-size: 16px;
+		display: block;
+		text-align: center;
+		transition: .3s;
+	}
+	.tempBot s{
+		color: #999999;
+		width: 171.4px;
+		height: 30px;
+		line-height: 30px;
+		font-size: 12px;
+		display: block;
+		text-align: center;
+	}
+	.tempBot input{
+		width: 90px;
+		height: 30px;
+		color: #6d81ac;
+		outline: none;
+		cursor: pointer;
+		font-size: 14px;
+		border-radius: 20px;
+		border: 2px solid #6d81ac;
+		background-color:rgba(0,0,0,0);
+		margin-left:41px;
+		transition: .3s;
+	}
+	.tempBot input:hover{
+		color: #0e58f7;
+		background-color: #cde3d8;
+	}

@@ -1,0 +1,64 @@
+/***********************footer********************************************/
+	footer{
+		width: 100%;
+		height: 370px;
+		margin-top: 40px;
+		padding-top: 70px;
+		background-color: #f1f1f1;
+	}
+	.footerBot{
+		width: 1200px;
+		height: 280px;
+		font-size: 12px;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.footerBot li{
+		color: #a6a6a6;
+		margin-top: 6px;
+	}
+	.footerWz{
+		width: 1178px;
+		margin: 0 auto;
+	}
+	.footerGyqd{
+		width: 448px;
+		margin: 0 auto;
+	}
+	.footerHzhb{
+		width: 1092px;
+		margin: 0 auto;
+	}
+	.footerWz,.footerGyqd,.footerHzhb{
+		overflow: hidden;
+	}
+	.footerWz li,.footerGyqd li{
+		float: left;
+		height: 25px;
+		line-height: 25px;
+		font-size: 13px;
+		padding: 0 6px 0 6px;
+		margin: 0;
+	}
+	.footerWz li a,.footerGyqd li a{
+		color: #1a1a1a;
+		transition: .3s;
+	}
+	.footerHzhb li{
+		float: left;
+		height: 70px;
+		padding: 10px 5px 0 5px ;
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+

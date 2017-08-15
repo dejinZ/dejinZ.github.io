@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/secarch.css" />
+		<link rel="stylesheet" href="css/kap.css" />
+		<link rel="stylesheet" href="css/tempLb.css" />
+		<link rel="stylesheet" href="css/towtempLR.css" />
+		<link rel="stylesheet" href="css/towCnt.css" />
+		<link rel="stylesheet" href="css/tempPh.css"/>
+		<link rel="stylesheet" href="css/tmpeDay.css" />
+		<link rel="stylesheet" href="css/tempGx.css"/>
+		<link rel="stylesheet" href="css/tempCata.css"/>
+		<link rel="stylesheet" href="css/tempAut.css"/>
+		<link rel="stylesheet" href="css/tempBot.css"/>
+		<link rel="stylesheet" href="css/footer.css"/>
+		<link rel="stylesheet" href="css/register.css" />
+		<script src="js/jquery-3.2.1.js"></script>
+		<script type="text/javascript" src="js/vue.js" ></script>
+		<script type="text/javascript" src="js/vue-resource.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+		<script type="text/javascript" src="js/json.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/secarch.js"></script>
+		<script type="text/javascript" src="js/towCnt.js"></script>
+		<script type="text/javascript" src="js/tempLR.js" ></script>
+		<script type="text/javascript" src="js/tempPh.js"></script>
+		<script type="text/javascript" src="js/tempfour.js"></script>
+		<script type="text/javascript" src="js/tempDay.js"></script>
+		<script type="text/javascript" src="js/tempGx.js"></script>
+		<script type="text/javascript" src="js/tempCata.js"></script>
+		<script type="text/javascript" src="js/tempAut.js"></script>
+		<script type="text/javascript" src="js/tempBot.js"></script>
+		<script type="text/javascript" src="js/templunbo.js" ></script>
+		<script type="text/javascript" src="js/dltab.js" ></script>
+		<script type="text/javascript" src="js/hover.js"></script>
+	</head>
+	<body>
+		<div id="box">
+			<div class="register">
+				<div class="register_box">
+					<a href="javascript:;" class="logOut">X</a>
+					<ul class="topdl">
+						<li class="topdl_dspl">账号登录</li>
+						<li>QQ登录</li>
+						<li>微信登录</li>
+					</ul>
+					<div id="zhdl" class="dspl">
+						<div class="inp">
+							<span class="inp_span"><span class="spanClass">!</span>支持手机号和邮箱登录</span>
+							<img src="img/image/dl01.png" />
+							<input class="dlInp" type="text" name="" placeholder="手机/邮箱" />
+							<span class="spanClass spanTrue">√</span>
+						</div>
+						<div class="inp">
+							<span class="inp_span"><span class="spanClass">!</span>建议至少使用两种字符组合</span>
+							<img src="img/image/dl02.png" />
+							<input class="dlInp" type="text" name="" placeholder="密码" />
+							<span class="spanClass spanTrue">√</span>
+						</div>
+						<div class="check">
+							<input type="checkbox" name="" >自动登录
+							<span>忘记密码</span>
+						</div>
+						<input type="button" name="" value="登录" class="zhdlBut"/>
+						<ul>
+							<li><a href="javascript:;">手机验证码登录</a></li>|
+							<li><a href="javascript:;">免费注册</a></li>
+						</ul>
+					</div>
+					<div id="qqdl">
+						<span>帐号密码登录</span>
+						<p>推荐使用快速安全登录，防止盗号。</p>
+						<div class="inp">
+							<span class="inp_span"><span class="spanClass">!</span>支持手机号和邮箱登录</span>
+							<img src="img/image/dl01.png" />
+							<input type="text" name="" placeholder="QQ号登录" class="dlInp"/>
+							<span class="spanClass spanTrue">√</span>
+						</div>
+						<div class="inp">
+							<span class="inp_span"><span class="spanClass">!</span>建议至少使用两种字符组合</span>
+							<img src="img/image/dl02.png" />
+							<input type="text" name="" placeholder="密码" class="dlInp"/>
+							<span class="spanClass spanTrue">√</span>
+						</div>
+						<input type="button" name="" value="登录" class="zhdlBut" />
+						<div class="qqbtn">
+							<a href="javascrip:;">忘了密码？</a> | 
+							<a href="javascrip:;">注册新帐号</a> | 
+							<a href="javascrip:;">意见反馈</a>
+						</div>
+					</div>
+					<div id="wxdl">
+						<img src="img/image/wx.png" />
+						<p>请使用微信扫描二维码登录</p>
+						<p>“起点中文”</p>
+					</div>
+				</div>
+			</div>
+			<header>
+				<div class="head_top">
+					<div class="head_topNav">
+						<ul>
+							<li class="head_active"><a href="#">起点中文网</a></li>
+							<li><hr style="display: none;" /><a href="#">起点女生网</a></li>
+							<li><hr /><a href="#">创造中文网</a></li>
+							<li><hr /><a href="#">云起书院</a></li>
+							<li><hr /><a href="#">繁体版本</a></li>
+						</ul>
+						<div>
+							<a href="javascript:;" class="dlzc">登录</a>
+							<hr />
+							<a href="javascript:;">注册</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="head_search">
+					<div class="logo">
+						<img src="img/logo.png" />
+						<div>
+							<h1>起点中文网</h1>
+							<span>阅文集团旗下网站</span>
+						</div>
+					</div>
+					<div class="search" id="search">
+						 <div>
+						 	<input id="inp" type="text" v-model="val" placeholder="极道天魔"/>
+						 	<a class="anA"><img src="img/search.png" /></a>
+						 </div>
+						 <ul class="inpUl">
+						 	<li v-for="item of bodyText">
+								<a href="https://www.baidu.com/">{{item}}</a>
+							</li>
+						 </ul>
+					</div>
+					<a class="wdsj" href="#">
+						<img src="img/wdsj.png"/>
+						<span>我的书架</span>
+					</a>
+				</div>
+				<nav>
+					<div class="_nav">
+						<ul>
+							<li><a href="javascript:;"><img src="img/fl.png"/>作品分类</a></li>
+							<li><a href="#">全部作品</a></li>
+							<li><a href="#">排行</a></li>
+							<li><a href="#">完本</a></li>
+							<li><a href="#">免费</a></li>
+							<li><a href="#">作家专区</a></li>
+							<li><a href="#"><img src="img/khd.png" />客户端</a></li>
+						</ul>
+						<div>
+							<a href="#"><img src="img/yr.png"/>页游</a>
+							<a href="#"><img src="img/sjr.png"/>手游</a>
+						</div>
+					</div>
+				</nav>
+			</header>
+			<section>
+				<div id="section_one">
+					<div class="section_oneLeft">
+						<ul>
+							<li>
+								<a href=""><span></span><span>玄幻</span><span></span></a>
+								<a href=""><span></span><span>奇幻</span><span></span></a>
+							</li>
+							<li>
+								<a href=""><span></span><span>武侠</span><span></span></a>
+								<a href=""><span></span><span>仙侠</span><span></span></a>
+							</li>
+							<li>
+								<a href=""><span></span><span>都市</span><span></span></a>
+								<a href=""><span></span><span>现实</span><span></span></a>
+							</li>
+							<li>
+								<a href=""><span></span><span>军事</span><span></span></a>
+								<a href=""><span></span><span>历史</span><span></span></a>
+							</li>
+							<li>
+								<a href=""><span></span><span>游戏</span><span></span></a>
+								<a href=""><span></span><span>体育</span><span></span></a>
+							</li>
+							<li>
+								<a href=""><span></span><span>科幻</span><span></span></a>
+								<a href=""><span></span><span>灵异</span><span></span></a>
+							</li>
+							<li>
+								<a href=""><span></span><span>女生网</span><span></span></a>
+								<a href=""><span></span><span>二次元</span><span></span></a>
+							</li>
+						</ul>
+					</div>
+					<div class="section_oneCenter">
+						<div class="section_oneTop">
+							<ul class="section_oneLb"></ul>
+							<ul class="section_oneNav"></ul>
+						</div>
+						<ul class="section_oneBottom"></ul>
+					</div>
+					<div class="section_oneRight">
+						<div class="oneRight_top">
+							<h3>讨论区发言规则调整</h3>
+							<ul></ul>
+							<div>
+								<img src="img/bannerlb.png" />
+								<ul class="oneRlg"></ul>
+							</div>
+						</div>
+						<a class="oneRibtn" href="javascript:;"></a>
+					</div>
+				</div>
+				<div id="section_two">
+					<div class="section_twoLeft"></div>
+					<div class="section_twoCenter">
+						<div class="twoCenter_lunbo">
+							<h3>编辑推荐</h3>
+							<div class="towTop" id="towTop">
+								<twoTop-component :list="towTop1"></twoTop-component>
+								<div class="accordion">
+									<a href="javascript:;"><img src="img/img/towtop01.png" /></a>
+									<div class="Text">
+										<span>超级蛋蛋</span>
+										<p>
+										12月25日。圣诞节。一名苏杭女子怀胎十月，生下一只圆滚滚的蛋。世界震惊！全人类震惊！
+										</p>
+										<ul class="towsidu">
+											<li><a href="javascript:;">免费试读</a></li>
+											<li><a href="javascript:;">加入书架</a></li>
+											<li><a href="javascript:;">推荐投票</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="accordion">
+									<a href="javascript:;"><img src="img/img/towtop02.png" /></a>
+									<div class="Text">
+										<span>美漫之我道</span>
+										<p>
+											异界顶端的法师，觉醒于漫威世界。杀了你就能变强？胜了你就能变强？不！！！只要战斗，我就能变强！
+										</p>
+										<ul class="towsidu">
+											<li><a href="javascript:;">免费试读</a></li>
+											<li><a href="javascript:;">加入书架</a></li>
+											<li><a href="javascript:;">推荐投票</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="accordion">
+									<a href="javascript:;"><img src="img/img/towtop03.png" /></a>
+									<div class="Text">
+										<span>无限之从写轮眼</span>
+										<p id="p">
+											我体验过贞子的怨恨，伽椰子的咆哮；我曾在异形的追杀下九死一生，也曾在铁血战士的刀锋中生死一瞬；
+										</p>
+										<ul class="towsidu">
+											<li><a href="javascript:;">免费试读</a></li>
+											<li><a href="javascript:;">加入书架</a></li>
+											<li><a href="javascript:;">推荐投票</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="twoCcenter"></div>
+						<div class="twoCbottom"></div>
+					</div>
+					<div class="section_twoRight"></div>	
+				</div>
+				<div id="banner_one"></div>
+				<div id="section_three">
+					<div class="three_button">
+						<input class="glyphicon-menu-down" type="button" value="展开更多">
+					</div>
+				</div>
+				<div id="banner_two"></div>
+				<div id="section_four">
+					<div class="section_fourLeft" id="fourlunbo">
+						<h2>热门作品</h2>
+						<lunbo-component :lb="lbfour"></lunbo-component>
+					</div>
+					<div class="section_fourcolumn" id="fourcolumn">
+						<four-component :list="list1"></four-component>
+						<four-component :list="list2"></four-component>
+						<four-component :list="list3"></four-component>
+						<four-component :list="list4"></four-component>
+						<four-component :list="list5"></four-component>
+						<four-component :list="list6"></four-component>
+						<four-component :list="list7"></four-component>
+						<div class="section_fourend">
+							<ul class="fourend">
+								<li>时空穿梭</li>
+								<li class="Hblack">主神大道</li>
+								<li>7,173,328人气</li>
+								<li>彻底将地球玩坏</li>
+								<li><a href="javascript:;"><img src="img/img/four002.png"/></a></li>
+							</ul>
+							<ul class="fourend">
+								<li>幻想修仙</li>
+								<li class="Hblack">史上最牛轮回</li>
+								<li>6,025,402人气</li>
+								<li>站在轮回食物链顶端的男人</li>
+								<li><a href="javascript:;"><img src="img/img/four001.png"/></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+				
+				<div id="section_five">
+					<div class="section_fiveLeft" id="fivelunbo">
+							<h2>新书推荐<span class="secSpan">上周入库7264本</span><span class="secMore">更多></span></h2>
+							<lunbo-component :lb="lbfive"></lunbo-component>
+							<div class="fiveCenter" id="fiveCenter">
+								<day-component :list="list1"></day-component>
+								<day-component :list="list2"></day-component>
+								<day-component :list="list3"></day-component>
+								<day-component :list="list4"></day-component>
+								<day-component :list="list5"></day-component>
+								<day-component :list="list6"></day-component>
+							</div>
+					</div>
+					<div class="section_fiveRight"></div>
+				</div>
+				<div id="banner_three"></div>
+				
+				
+				<div id="section_six">
+					<div class="section_sixLeft" id="sixlunbo">
+							<h2>完本精品<span class="secSpan">完本总数31296本</span><span class="secMore">更多></span></h2>
+							<lunbo-component :lb="lbsix"></lunbo-component>
+							<div class="sixCenter" id="sixCenter">
+								<day-component :list="six1"></day-component>
+								<day-component :list="six2"></day-component>
+								<day-component :list="six3"></day-component>
+								<day-component :list="six4"></day-component>
+								<day-component :list="six5"></day-component>
+								<day-component :list="six6"></day-component>
+							</div>
+					</div>
+					<div class="section_sixRight"></div>
+				</div>
+				<div id="section_seven">
+					<div class="seven_left">
+						<h2>最近更新<span class="secSpan">今日更新19313本</span><span class="secMore">更多></span></h2>
+						<div class="sevenGx" id="sevenGx">
+							<gx-component :seven="sevenGx1"></gx-component>
+							<gx-component :seven="sevenGx2"></gx-component>
+							<gx-component :seven="sevenGx3"></gx-component>
+						</div>
+						<div class="sevenCata" id="sevenCata">
+							<cata-component :seven="sevenCata"></cata-component>
+						</div>
+					</div>
+					<div class="sevenAut" id="sevenAut">
+						<h2>大神俱乐部<span class="secMore">更多></span></h2>
+						<aut-component :seven="sevenAut1"></aut-component>
+						<aut-component :seven="sevenAut2"></aut-component>
+						<aut-component :seven="sevenAut3"></aut-component>
+					</div>
+				</div>
+				<div id="section_bottom">
+					<bot-component :bottom="bottom"></bot-component>
+				</div>
+			</section>
+			<footer>
+				<div class="footerBot">
+					<ul>
+						<li>
+							<ul class="footerWz">
+								<li><a href="javascript:;">阅文集团旗下网站：</a></li>
+								<li><a href="javascript:;">起点中文网</a></li>
+								<li><a href="javascript:;">起点女生网</a></li>
+								<li><a href="javascript:;">创世中文网</a></li>
+								<li><a href="javascript:;">云起书院</a></li>
+								<li><a href="javascript:;">红袖添香</a></li>
+								<li><a href="javascript:;">小说阅读网</a></li>
+								<li><a href="javascript:;">言情小说吧</a></li>
+								<li><a href="javascript:;">潇湘书院</a></li>
+								<li><a href="javascript:;">天方听书网</a></li>
+								<li><a href="javascript:;">懒人听书</a></li>
+								<li><a href="javascript:;">阅文悦读</a></li>
+								<li><a href="javascript:;">QQ阅读</a></li>
+								<li><a href="javascript:;">起点读书</a></li>
+								<li><a href="javascript:;">作家助手</a></li>
+								<li><a href="javascript:;">起点国际版</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="footerGyqd">
+								<li><a href="javascript:;">关于起点</a></li>
+								<li><a href="javascript:;">联系我们</a></li>
+								<li><a href="javascript:;">加入我们</a></li>
+								<li><a href="javascript:;">帮助中心</a></li>
+								<li><a href="javascript:;">提交建议</a></li>
+								<li><a href="javascript:;">起点论坛</a></li>
+								<li><a href="javascript:;">动漫频道</a></li>
+							</ul>
+						</li>
+						<li>
+							<p>Copyright © 2002-2017 www.qidian.com All Rights Reserved版权所有 上海玄霆娱乐信息科技有限公司</p>
+						</li>
+						<li>
+							<p>上海玄霆娱乐信息科技有限公司 增值电信业务经营许可证沪B2-20080046 沪网文[2015]0081-031 新出网证（沪）字010 沪ICP备08017520号-1</p>
+						</li>
+						<li>
+							<p>请所有作者发布作品时务必遵守国家互联网信息管理办法规定，我们拒绝任何色情小说，一经发现，即作删除！举报电话：010-59357051</p>	
+						</li>
+						<li>
+							<p>本站所收录的作品、社区话题、用户评论、用户上传内容或图片等均属用户个人行为。如前述内容侵害您的权益，欢迎举报投诉，一经核实，立即删除，本站不承担任何责任</p>
+						</li>
+						<li>
+							<p>联系方式 总机 021-61870500 地址：中国（上海）自由贸易试验区碧波路690号6号楼101、201室</p>
+						</li>
+						<li>
+							<ul class="footerHzhb">
+								<li><a href="javascript:;"><img src="img/image/footer01.png" /></a></li>
+								<li><a href="javascript:;"><img src="img/image/footer02.png" /></a></li>
+								<li><a href="javascript:;"><img src="img/image/footer03.png" /></a></li>
+								<li><a href="javascript:;"><img src="img/image/footer04.png" /></a></li>
+								<li><a href="javascript:;"><img src="img/image/footer05.png" /></a></li>
+								<li><a href="javascript:;"><img src="img/image/footer06.png" /></a></li>
+								<li><a href="javascript:;"><img src="img/image/footer07.png" /></a></li>
+							</ul>
+						</li>
+						<li>
+							<p>起点正积极配合国家最新发布的《关于办理侵犯知识产权刑事案件适用法律若干问题的意见》，</p>
+						</li>
+						<li>
+							<p>采用刑事手段进行严厉打击盗版，目前相关公安机关已经抓获犯罪嫌疑人15名！正告盗版网站立即停止侵权行为！</p>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+				
+	</body>
+</html>
+

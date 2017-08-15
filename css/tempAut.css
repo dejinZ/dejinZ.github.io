@@ -1,0 +1,56 @@
+	.tempAut{
+		width: 190px;
+		height: 185px;
+		background-color: #f7f5f0;
+		padding: 15px 10px 10px 10px;
+		
+	}
+	.tempAut ul{
+		height: 195px;
+		font-size: 12px;
+		position: relative;
+		border-bottom: 1px solid #e6e6e6;
+	}
+	.tempAut ul li:nth-child(2) a{
+		color: #2f2f2f;
+		font-size: 16px;
+		font-weight: 600;
+		transition: .3s;
+	}
+	.tempAut ul li:nth-child(3){
+		color: #000;
+		height: 25px;
+		line-height: 25px;
+		font-size: 13px;
+	}
+	.tempAut ul li:nth-child(4){
+		color: #999999;
+		height: 25px;
+		line-height: 25px;
+		font-size: 12px;
+	}
+	.tempAut ul li:nth-child(5) a{
+		color: #36569a;
+		font-size: 12px;
+		transition: .3s;
+		padding: 0 6px 0 2px;
+		display: inline-block;
+	}
+	.tempAut ul li:nth-child(5) a:nth-child(1){
+		padding: 0 6px 0 0;
+	}
+	.tempAut ul li p{
+		color: #666666;
+		font-size: 12px;
+		line-height: 20px;
+		padding-top: 15px;
+	}
+	.tempAut ul li img{
+		width: 65px;
+		height: 65px;
+		border-radius: 50%;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	
